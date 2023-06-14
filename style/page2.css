@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url(./page2Card.css);
+@import url(./page2Navbar.css);
+
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: 'Oswald', sans-serif;
+}
+
+#imgPokemon{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-100%);
+}
+
+#namePokemon{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+hr{
+    width: 70%;
+    margin: auto;
+}
+@media all and (max-width: 800px) {
+    #imgPokemon{
+        height: 350px;
+    }
+}
+@media all and (max-width: 550px) {
+    #imgPokemon{
+        height: 250px;
+    }
+}
+@media all and (max-width: 350px) {
+    #imgPokemon{
+        height: 150px;
+    }
+}

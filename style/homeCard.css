@@ -1,0 +1,122 @@
+#screen{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 5%;
+    width: 18rem;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.name{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: black;
+    margin-bottom: 10%;
+}
+.card-value{
+    display: flex;
+    justify-content: center;
+}
+.card-value-type{
+    border-right: 1px solid;
+}
+.card-value-dif{
+    border-left: 1px solid ;
+}
+.card-value-type, .card-value-att, .card-value-dif{
+    display: inline;
+    width: 33%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.card-value-points{
+    color: black
+}
+.card-value-button{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* type */
+.card-type-Grass:hover{
+    border: 3px solid green;
+}
+
+.card-type-Fire:hover{
+    border: 3px solid firebrick;
+}
+
+.card-type-Water:hover{
+    border: 3px solid #31a7cb;
+}
+
+.card-type-Bug:hover{
+    border: 3px solid #96be25;
+}
+
+.card-type-Normal:hover{
+    border: 3px solid grey;
+}
+
+.card-type-Poison:hover{
+    border: 3px solid #A742D2;
+}
+
+.card-type-Electric:hover{
+    border: 3px solid #ffff00;
+}
+
+.card-type-Ground:hover{
+    border: 3px solid #964B00;
+}
+
+.card-type-Fairy:hover{
+    border: 3px solid #fc0fc0;
+}
+
+.card-type-Fighting:hover{
+    border: 3px solid #987654;
+}
+
+.card-type-Psychic:hover{
+    border: 3px solid #ea899a;
+}
+
+.card-type-Rock:hover{
+    border: 3px solid #4e3b31;
+}
+
+.card-type-Ghost:hover{
+    border: 3px solid #e6e7e2;
+}
+
+.card-type-Ice:hover{
+    border: 3px solid #396d7c;
+}
+
+.card-type-Dragon:hover{
+    border: 3px solid #bf2110;
+}
+
+.card-type-Dark:hover{
+    border: 3px solid black;
+}
+
+.card-type-Steel:hover{
+    border: 3px solid #71797E;
+}
+
+.card-type-Flying:hover{
+    border: 3px solid #efefef;
+}
